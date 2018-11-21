@@ -249,3 +249,34 @@ h1{
 .endfooter{
  padding-top:180px;
 }
+
+.menu{
+  padding-top:5px;
+  
+}
+
+.menu ul{
+  list-style-type: none;
+  background-color:#7fb5da;
+  overflow:hidden;
+  height:60px;
+  margin-top:1px;
+  
+ }
+
+.menu ul li a{
+ display:block;
+ float:left;
+ text-decoration:none;
+ padding-right: 40px;
+ padding-top: 20px;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:18px;
+ color:black;
+
+}
+
+.menufoot{
+  margin-top:440px;
+}
