@@ -249,3 +249,79 @@ h1{
 .endfooter{
  padding-top:180px;
 }
+
+.menu{
+  padding-top:5px;
+  
+}
+
+.menu ul{
+  list-style-type: none;
+  background-color:#7fb5da;
+  overflow:hidden;
+  height:60px;
+  margin-top:1px;
+  
+ }
+
+.menu ul li a{
+ display:block;
+ float:left;
+ text-decoration:none;
+ padding-right: 40px;
+ padding-top: 20px;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:18px;
+ color:black;
+
+}
+
+.menufoot{
+  margin-top:440px;
+}
+
+table{
+  
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+  padding: 20px;
+  width:65%;
+  font-family: Cambria;
+  font-size:15px;
+  background-color:rgb(245, 222, 179, 0.4); 
+  margin-left:12%; 
+  margin-top:2%;
+  border-collapse: collapse;
+  border-right:1px solid black;
+      
+}
+
+td,th{
+padding: 8px;
+font-family: Cambria;
+font-size:15px;
+border-bottom:1px solid black; 
+border-left:1px solid black;
+border-right: 1px solid black;
+text-align:left;
+
+}
+table button{
+font-size: 12px;
+padding: 10px 24px;
+font-family: cambria;
+border-radius: 4px;
+border: 2px solid rgb(78, 94, 143);
+
+}
+
+#table-wrapper{
+  overflow-x: auto;
+}
+
+.bottom{
+margin-top:125px;
+}
