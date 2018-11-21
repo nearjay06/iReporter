@@ -325,3 +325,28 @@ border: 2px solid rgb(78, 94, 143);
 .bottom{
 margin-top:125px;
 }
+
+.list2{
+  font-family: cambria;
+  font-size:16px;
+  float:left;
+  width:70%;
+  padding-right:22%;
+  padding-top:3%;
+  margin-left:3%;
+  
+}
+
+.check{
+ background-color: rgb(169, 209, 221);
+ border: 1px solid rgb(134, 134, 133);
+ width: 60%;
+ height: 280px;
+ margin-left: 20%;
+ margin-right:25%;
+  
+}
+
+.foot1{
+  padding-top: 143px;
+}
