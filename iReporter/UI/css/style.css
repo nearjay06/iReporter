@@ -1,0 +1,168 @@
+body {
+ width: 100%;
+ height: 100%;
+ background-color:rgb(226, 235, 241);
+}
+
+#signup{
+ background-image: url(../static/images/bribe.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h1{
+  text-align:center;
+ font-family:cambria;
+ font-size:30px;
+ color: maroon;
+ padding-top:-2%;
+ 
+}
+
+.signup1{
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px;
+ text-align:center;
+}
+
+.flex-container{
+ display:flex;
+ flex-direction: column;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px; 
+ width:62%;
+ margin-left:33%;
+ margin-top: 5px;
+  
+}
+
+.flex-container select{
+  padding:10px;
+  border:1px solid  rgb(87, 84, 81);
+  margin-top:10px;
+  border-radius:10px;
+  font-family:cambria;
+  font-weight:bold;
+  width:53%;
+}
+
+.flex-container button{
+ border-radius:10px;
+ border:1px solid rgb(202, 169, 188);
+ padding-top:5px;
+ padding-bottom:5px;
+ background-color:rgb(172, 192, 223);
+ font-size:16px;
+ margin-top:1%;
+ width:180px;
+ transition: 0.3s;
+ font-family: cambria;
+ margin-left:100px;
+   
+}
+
+
+.flex-container button:hover {
+ opacity: 1;
+ background-color:palegreen;
+}
+
+.flex-container a{
+ text-decoration: none;
+ font-family:cambria;
+ padding:2px;
+ color:red;
+ font-weight:bold;
+  
+ }
+ 
+ .feet{
+  font-family:cambria;
+  padding-left:16px;
+  padding-top:30px;
+  font-size:15px;
+  
+ }
+
+ input{
+  margin-top:8px;
+  padding:10px;
+  margin-bottom:5px;
+  border-radius:20px;
+  border:1px solid rgb(87, 84, 81);
+  width:50%;
+  
+ }
+
+ #home{
+  background-image: url(../static/images/corrupt3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+   
+  .pen1{
+   font-family:cambria;
+   font-size:20px;
+   font-weight:bold;
+   text-align:center;
+   padding-top:20px;
+   padding-right:90px;
+   
+  }
+
+  .page a{
+   border:1px solid rgb(214, 201, 173);
+   border-radius:30px;
+   transition: 0.3s;
+   background-color: rgb(247, 183, 231);
+   padding:10px;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   text-decoration:none;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   color:black;
+    
+    
+  }
+  .page a:hover {
+   opacity: 1;
+   background-color:rgb(223, 194, 99);
+   
+  }
+  
+  .page{
+   font-family:cambria;
+   font-size:20px;
+   font-weight:bold;
+   margin-left:40%;
+   padding-top:10px;
+   
+      
+  }
+
+  .page p{
+   padding-top:5px;
+   padding-bottom:8px;
+  }
+
+  .move3{
+   padding-left:50px;
+ }
+ 
+ .move5{
+   padding-left:20px;
+ }
+
+ .foot{
+  font-family:cambria;
+  padding-left:16px;
+  padding-top:230px;
+  font-size:15px;
+  margin-top:2%;
+ }
