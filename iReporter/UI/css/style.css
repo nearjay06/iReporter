@@ -97,7 +97,7 @@ h1{
  }
 
  #home{
-  background-image: url(../static/images/corrupt3.png);
+  background-image: url(../static/images/bribe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  }
@@ -168,7 +168,7 @@ h1{
  }
 
  #signin{
-   background-image: url(../static/images/log3.png);
+   background-image: url(../static/images/bribe.jpg);
    background-repeat: no-repeat;
    background-size: cover;
   }
@@ -247,5 +247,5 @@ h1{
 }
 
 .endfooter{
- padding-top:160px;
+ padding-top:180px;
 }
