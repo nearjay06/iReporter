@@ -280,3 +280,44 @@ h1{
 .menufoot{
   margin-top:440px;
 }
+
+.wrap{
+  display:flex;
+ flex-direction: column; 
+ flex-wrap:wrap;
+ font-family:cambria;
+ font-weight:bold;
+ font-size:16px; 
+ width:60%;
+ margin-left:33%;
+ margin-top: 5px;
+}
+
+.flag{
+  font-family: cambria;
+  padding-left:10px;
+  font-weight:bold;
+}
+
+.coordinates{
+  font-family: cambria;
+  font-size:15px;
+  font-weight:bold;
+  
+  
+}
+
+.coordinates input{
+  width:20%;
+  float:left;
+  padding-left:20px;
+  margin-left:20px;
+}
+.coordinates button{
+  border: 1px solid black;
+  border-radius:30px;
+  padding:5px;
+  margin-left:20px;
+  background-color: aqua;
+
+}
