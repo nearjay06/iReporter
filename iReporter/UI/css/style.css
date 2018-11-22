@@ -48,8 +48,8 @@ h1{
   width:53%;
 }
 
-.flex-container button{
- border-radius:10px;
+.flex-container a{
+ border-radius:12px;
  border:1px solid rgb(202, 169, 188);
  padding-top:5px;
  padding-bottom:5px;
@@ -60,24 +60,18 @@ h1{
  transition: 0.3s;
  font-family: cambria;
  margin-left:100px;
-   
+ text-decoration: none;
+ color:black;
+ font-weight:bold;
+ padding-left:40px;
+    
 }
 
-
-.flex-container button:hover {
+ .flex-container a:hover {
  opacity: 1;
  background-color:palegreen;
-}
+} 
 
-.flex-container a{
- text-decoration: none;
- font-family:cambria;
- padding:2px;
- color:red;
- font-weight:bold;
-  
- }
- 
  .feet{
   font-family:cambria;
   padding-left:16px;
