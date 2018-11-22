@@ -282,16 +282,21 @@ h1{
 }
 
 .wrap{
-  display:flex;
- flex-direction: column; 
- flex-wrap:wrap;
- font-family:cambria;
- font-weight:bold;
- font-size:16px; 
- width:60%;
- margin-left:33%;
- margin-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  padding-top:5px;
+  padding-left:50px;
+
 }
+.wrap p{
+  padding-top:170px;
+  
+  
+  }
 
 .flag{
   font-family: cambria;
@@ -303,26 +308,176 @@ h1{
   font-family: cambria;
   font-size:15px;
   font-weight:bold;
-  
-  
+    
 }
 
 .coordinates input{
-  width:20%;
   float:left;
-  padding-left:20px;
+  width:20%;
+  padding-left:10px;
   margin-left:20px;
+  
+  
 }
 .coordinates button{
+  float:left;
   border: 1px solid black;
   border-radius:30px;
-  padding:5px;
+  padding:10px;
   margin-left:20px;
   background-color: aqua;
 
 }
 
 .coordinates label{
-  padding-left:40px;
+  padding-left:30px;
   
 }
+
+.photo{
+  padding-left:20px;
+  float:left;
+  margin-top:0%
+}
+
+.photo1{
+  padding-left:20px;
+  font-family:cambria;
+  font-weight:bold;
+  padding-top:2px;
+}
+
+.list{
+  font-family:cambria;
+  font-size:15px;
+  font-weight:bold;
+  width:50%;
+  float:left;
+  color:black;
+  margin-left:-23%;
+  margin-top:-2%
+}
+
+.list p{
+  padding-left:200px;
+  padding-right:10px;
+  margin-top: -22px;
+}
+
+.count{
+  float: right;
+  padding-right:5%;
+  font-family: cambria;
+  font-weight:bold;
+  margin-top:2%;
+       
+}
+
+.counter1,.counter2{
+ float: right;
+ margin-right: 20px;
+ color: black;
+ border: 1px solid rgb(187, 26, 47);
+ border-radius: 4px;
+ padding: 5px;
+}
+
+.counter,.count1{
+  color:black;
+}
+
+.set{
+  padding-left:160px;
+  padding-top:30%;
+  padding-bottom:6px;
+  margin-top:1%
+}
+
+
+
+ .fill{
+  font-family: cambria;
+  font-weight: bold;
+  font-size: 16px;
+     
+ }
+
+ .fill1{
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   padding-left:1px;
+   float:left;
+   padding-top:10%;
+   margin-right:10%;
+   margin-left:-18%;
+   width:25%;
+   
+   
+  }
+    
+  .fill1 button{
+    padding:10px;
+    border:1px solid rgb(119, 128, 0);
+    font-family:cambria;
+    font-weight:bold;
+    border-radius:8px;
+    margin-top:8%;
+    margin-left:50px;
+ 
+ 
+  }
+  .fill2{
+    font-family: cambria;
+    font-weight: bold;
+    font-size:16px;
+    float:right;
+    padding-right:400px;
+    padding-top:3px;
+       
+  }
+ 
+  .fill3{
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   float:right;
+   padding-right:85px;
+   padding-bottom:150px;
+   margin-top: -21%;
+ 
+  }
+ 
+  .fill3 table{
+    margin-right: 10px;
+    color: black;
+    border: 2px solid rgb(0, 41, 128);
+    border-radius: 4px;
+    padding: 20px;
+    width:65%;
+    font-family: Cambria;
+    font-size:15px;
+    background-color:rgb(245, 222, 179, 0.4); 
+    margin-left:40%; 
+    margin-top:2%;
+    border-collapse: collapse;
+    border-right:1px solid black;
+        
+ }
+ 
+ .fill3 td,th{
+  padding: 8px;
+  font-family: Cambria;
+  font-size:15px;
+  border-bottom:1px solid black; 
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  text-align:left;
+ }
+ .tablefooter{
+   float:left;
+   padding-top:-50px;
+ }
+ 
+ 
+ 
