@@ -281,48 +281,100 @@ h1{
   margin-top:440px;
 }
 
-.wrap{
-  display:flex;
- flex-direction: column; 
- flex-wrap:wrap;
- font-family:cambria;
- font-weight:bold;
- font-size:16px; 
- width:60%;
- margin-left:33%;
- margin-top: 5px;
-}
-
 .flag{
   font-family: cambria;
   padding-left:10px;
   font-weight:bold;
+  font-size:20px;
+  padding-left:500px;
 }
 
-.coordinates{
-  font-family: cambria;
+#table-wrapper {
+  overflow-x: auto;
+}
+ .flag1 table{
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+  padding: 20px;
+  width:65%;
+  font-family: Cambria;
   font-size:15px;
-  font-weight:bold;
+  background-color:rgb(245, 222, 179, 0.4); 
+  margin-left:12%; 
+  margin-top:1%;
+  border-collapse:collapse;
+  border-right:1px solid black;
+      
+ }
+ .flag1 td,th{
+  padding: 8px;
+  font-family: Cambria;
+  font-size:15px;
+  border-bottom:1px solid black; 
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  text-align:left;
   
+  }
+
+  .flag1 table button{
+  font-size: 12px;
+  padding: 10px 24px;
+  font-family: cambria;
+  border-radius: 4px;
+  border: 2px solid royalblue;
+  
+ }
+.recs{
+  margin-top:2%;
+}
+
+.intervene table{
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+  padding: 20px;
+  width:65%;
+  font-family: Cambria;
+  font-size:15px;
+  background-color:rgb(245, 222, 179, 0.4); 
+  margin-left:12%; 
+  margin-top:1%;
+  border-collapse:collapse;
+  border-right:1px solid black;
+      
+ }
+ .intervene td,th{
+  padding: 8px;
+  font-family: Cambria;
+  font-size:15px;
+  border-bottom:1px solid black; 
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  text-align:left;
   
 }
 
-.coordinates input{
-  width:20%;
-  float:left;
-  padding-left:20px;
-  margin-left:20px;
-}
-.coordinates button{
-  border: 1px solid black;
-  border-radius:30px;
-  padding:5px;
-  margin-left:20px;
-  background-color: aqua;
-
+.recs1{
+  margin-top:15%;
 }
 
-.coordinates label{
-  padding-left:40px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-}
