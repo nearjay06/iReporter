@@ -217,10 +217,7 @@ h1{
   background-color:plum;
  }
 
- .well1 p{
-   padding-left:80px;
- }
-
+ 
  .well1 a{
  text-decoration: none;
  font-family:cambria;
@@ -756,84 +753,65 @@ font-weight:bold;
   
 }
 
-.fill1{
-  padding-left:5px;
-  margin-top: -45%;
-  margin-right:10%;
-      
- }
-   
- .fill1 button{
-   padding:10px;
-   font-weight:bold;
-   border-radius:8px;
-   margin-top:8%;
-   margin-left:80px;
-
- }
-
- .fill1 input{
-   width:200%;
- }
-
- .fill1 label{
-   padding-left:5px;
- }
-
- .claim{
-  float: right;
-  padding-right:5%;
-  margin-top:20%;
-        
+.count{
+  padding-top:60%;
 }
 
 .counter1{
- float: left;
- margin-left: 5px;
- border-radius: 3px;
- padding: 4px;
- font-size:13px;
+  float:left;
+  padding-left:15px;
+  font-size:13px;
 }
+
 .counter2{
- margin-top:4%;
- float: right;
- border-radius: 3px;
- padding: 3px;
- font-size:13px;
- margin-left:20px;
- margin-bottom:10px;
-
+  float:right;
+  font-size:13px;
+  padding-left:5px;
 }
 
-.fill2 {
-  padding-right:91px;
-  padding-top:140px;
-       
+.fill1{
+  margin-top:-79%;
+  
+}
+
+.fill1 input {
+  width:200%;
+}
+
+.fill1 button{
+  padding:6px;
+  margin-top:2px;
+  width:70%;
+  margin-left:68%;
+}
+
+.fill2{
+  padding-right:180px;
 }
 
 .fill3{
-  font-size:13px;
-  padding-right:85px;
-  margin-top:-250%;
-    
- }
+  margin-top:-440px;
+  padding-right:170px;
+}
 
- .fill3 table{
-   margin-right: 72px;
-   border-radius: 4px;
-   padding: 18px;
-   width:100%;
-   font-size:13px;
-   margin-left:20%; 
-             
+.fill3 table{
+  margin-right: 72px;
+  border-radius: 4px;
+  padding: 18px;
+  width:100%;
+  font-size:13px;
+  margin-left:38%; 
+            
 }
 
 .fill3 td,th{
- padding: 5px;
- font-size:13px;
- 
+padding: 5px;
+font-size:13px;
+
 }
-.list{
+
+
+/*.list{
   width:60%;
   padding-left:13%;
   padding-top:500px;
@@ -847,10 +825,10 @@ font-weight:bold;
 
 .set{
   padding-left:100px;
-  padding-top:600px;
+  padding-top:300px;
   
   
-}
+} */
 
 }
 
