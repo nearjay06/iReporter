@@ -238,7 +238,7 @@ h1{
 }
 
 .endfooter{
- padding-top:180px;
+ padding-top:185px;
 }
 
 .menu{
@@ -565,6 +565,12 @@ margin-top:125px;
   padding-top: 143px;
 }
 
+.plot{
+  padding-right:400px;
+  margin-top: 5px;
+}
+
+
 
 @media screen and (max-width:800px){
   
@@ -583,6 +589,7 @@ h1{
 
 .foot{
   padding-top:58%;
+  font-size:13px;
 }
 
 .flex-container{
@@ -617,7 +624,9 @@ h1{
 }
 
 .endfooter{
-  padding-top:45%;
+  padding-top:41%;
+  font-size:13px;
+  padding-left:10px;
 }
 
 .admintable table{
@@ -641,13 +650,13 @@ font-weight:bold;
 font-size: 13px;
 padding: 5px 12px;
 border-radius: 2px;
-border: 2px solid rgb(78, 94, 143);
-font-weight:bold;
+
 }
 
 .bottom {
-  margin-top:15%;
+  margin-top:18%;
   margin-left:2%;
+  font-size:13px;
 }
 
 .menu{
@@ -688,6 +697,7 @@ font-weight:bold;
 
 .foot1 {
   padding-top: 33%;
+  font-size:13px;
 }
 
 .flag{
@@ -698,7 +708,7 @@ font-weight:bold;
 .intervene table{
   border-radius: 4px;
   padding: 10px;
-  width:100%;
+  width:160%;
   font-size:13px;
   margin-left:2%; 
   margin-top:1%;
@@ -713,6 +723,7 @@ font-weight:bold;
 
 .recs1{
   padding-top:25%;
+  font-size:13px;
 }
 
 .flag1 table{
@@ -786,12 +797,14 @@ font-weight:bold;
 }
 
 .fill2{
-  padding-right:180px;
+  padding-right:160px;
+  margin-top: -170%;
 }
 
 .fill3{
-  margin-top:-440px;
-  padding-right:170px;
+  margin-top:-670px;
+  padding-right:150px;
+  
 }
 
 .fill3 table{
@@ -810,25 +823,31 @@ font-size:13px;
 
 }
 
-
-/*.list{
-  width:60%;
-  padding-left:13%;
-  padding-top:500px;
-  
-}
-
-.list p{
+.set{
+  padding-top:450px;
   padding-left:80px;
   
 }
 
-.set{
-  padding-left:100px;
-  padding-top:300px;
+.list{
+  padding-left:60px;
   
+}
+.list p{
+  padding-left:70px;
+  width:95%;
   
-} */
+}
+
+.feet{
+  font-size:13px;
+}
+
+.tablefooter{
+  font-size:13px;
+  float:right;
+  padding-right:15px;
+}
 
 }
 
