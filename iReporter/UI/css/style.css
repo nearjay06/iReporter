@@ -111,7 +111,7 @@ h1{
    border:1px solid rgb(214, 201, 173);
    border-radius:30px;
    transition: 0.3s;
-   background-color: rgb(247, 183, 231);
+   background-color: rgb(226, 167, 79);
    padding:10px;
    font-family:cambria;
    font-weight:bold;
@@ -281,6 +281,7 @@ h1{
   font-weight:bold;
   font-size:20px;
   padding-left:500px;
+  
 }
 
 #table-wrapper {
@@ -356,7 +357,502 @@ h1{
   margin-top:15%;
 }
 
+.photo{
+  padding-left:20px;
+  float:left;
+  margin-top:0%
+}
 
+.photo1{
+  padding-left:20px;
+  font-family:cambria;
+  font-weight:bold;
+  padding-top:2px;
+}
+
+.list{
+  font-family:cambria;
+  font-size:15px;
+  font-weight:bold;
+  width:50%;
+  float:left;
+  color:black;
+  margin-left:-23%;
+  margin-top:-2%
+}
+
+.list p{
+  padding-left:200px;
+  padding-right:10px;
+  margin-top: -22px;
+}
+
+.count{
+  float: right;
+  padding-right:5%;
+  font-family: cambria;
+  font-weight:bold;
+  margin-top:2%;
+       
+}
+
+.counter1,.counter2{
+ float: right;
+ margin-right: 20px;
+ color: black;
+ border: 1px solid rgb(187, 26, 47);
+ border-radius: 4px;
+ padding: 5px;
+}
+
+.counter,.count1{
+  color:black;
+}
+
+.set{
+  padding-left:160px;
+  padding-top:30%;
+  padding-bottom:6px;
+  margin-top:1%
+}
+
+
+ .fill{
+  font-family: cambria;
+  font-weight: bold;
+  font-size: 16px;
+     
+ }
+
+ .fill1{
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   padding-left:1px;
+   float:left;
+   padding-top:10%;
+   margin-right:10%;
+   margin-left:-18%;
+   width:25%;
+   
+   
+  }
+    
+  .fill1 button{
+    padding:10px;
+    border:1px solid rgb(119, 128, 0);
+    font-family:cambria;
+    font-weight:bold;
+    border-radius:8px;
+    margin-top:8%;
+    margin-left:50px;
+ 
+ 
+  }
+  .fill2{
+    font-family: cambria;
+    font-weight: bold;
+    font-size:16px;
+    float:right;
+    padding-right:400px;
+    padding-top:3px;
+       
+  }
+ 
+  .fill3{
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   float:right;
+   padding-right:85px;
+   padding-bottom:150px;
+   margin-top: -21%;
+ 
+  }
+ 
+  .fill3 table{
+    margin-right: 10px;
+    color: black;
+    border: 2px solid rgb(0, 41, 128);
+    border-radius: 4px;
+    padding: 20px;
+    width:65%;
+    font-family: Cambria;
+    font-size:15px;
+    background-color:rgb(245, 222, 179, 0.4); 
+    margin-left:40%; 
+    margin-top:2%;
+    border-collapse: collapse;
+    border-right:1px solid black;
+        
+ }
+ 
+ .fill3 td,th{
+  padding: 8px;
+  font-family: Cambria;
+  font-size:15px;
+  border-bottom:1px solid black; 
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  text-align:left;
+ }
+ .tablefooter{
+   float:left;
+   padding-top:-50px;
+ }
+ 
+ 
+table{
+  
+  margin-right: 20px;
+  color: black;
+  border: 2px solid rgb(0, 41, 128);
+  border-radius: 4px;
+  padding: 20px;
+  width:65%;
+  font-family: Cambria;
+  font-size:15px;
+  background-color:rgb(245, 222, 179, 0.4); 
+  margin-left:12%; 
+  margin-top:2%;
+  border-collapse: collapse;
+  border-right:1px solid black;
+      
+}
+
+td,th{
+padding: 8px;
+font-family: Cambria;
+font-size:15px;
+border-bottom:1px solid black; 
+border-left:1px solid black;
+border-right: 1px solid black;
+text-align:left;
+
+}
+table button{
+font-size: 12px;
+padding: 10px 24px;
+font-family: cambria;
+border-radius: 4px;
+border: 2px solid rgb(78, 94, 143);
+
+}
+
+.bottom{
+margin-top:125px;
+}
+
+.list2{
+  font-family: cambria;
+  font-size:16px;
+  float:left;
+  width:70%;
+  padding-right:22%;
+  padding-top:3%;
+  margin-left:3%;
+  
+}
+
+.check{
+ background-color: rgb(169, 209, 221);
+ border: 1px solid rgb(134, 134, 133);
+ width: 60%;
+ height: 280px;
+ margin-left: 20%;
+ margin-right:25%;
+  
+}
+
+.foot1{
+  padding-top: 143px;
+}
+
+
+@media screen and (max-width:800px){
+  
+h1{
+  font-size: 20px;
+}
+
+.pen1{
+  padding-left:6%;
+}
+
+.page{
+  padding-top:5%;
+  margin-left:15%;
+}
+
+.foot{
+  padding-top:58%;
+}
+
+.flex-container{
+  margin-left: 20%;
+  width:100%;
+}
+
+.flex-container a{
+  margin-left:1%;
+}
+
+.flex-container p{
+  margin-right:30%;
+}
+
+.well1{
+  width:100%;
+  margin-left:15%;
+}
+
+.well1 p{
+  padding-left: 28%;
+  margin-top:-6%;
+}
+
+.well1 button{
+  margin-left:5%;
+}
+
+.tea{
+  margin-right:40%;
+}
+
+.endfooter{
+  padding-top:45%;
+}
+
+.admintable table{
+  margin-right: 10px;
+  border-radius: 3px;
+  padding: 16px;
+  width:60%;
+  font-size:13px;
+  font-weight:bold;
+  margin-left:5%; 
+  margin-top:2%;
+}
+
+.admintable td,th{
+padding: 4px;
+font-size:13px;
+font-weight:bold;
+
+}
+.admintable table button{
+font-size: 13px;
+padding: 5px 12px;
+border-radius: 2px;
+border: 2px solid rgb(78, 94, 143);
+font-weight:bold;
+}
+
+.bottom {
+  margin-top:15%;
+  margin-left:2%;
+}
+
+.menu{
+  padding-top:3px;
+  
+}
+
+.menu ul{
+  height:50px;
+  margin-top:1px;
+  padding-left: 5px;
+  
+ }
+
+.menu ul li a{
+ padding-right: 10px;
+ padding-top: 10px;
+ font-size:13px;
+ 
+}
+
+.list2{
+  font-size:14px;
+  width:80%;
+  padding-right:22%;
+  font-weight:bold;
+ 
+}
+
+.check{
+ width: 90%;
+ height: 300px;
+ margin-left: 3%;
+ margin-right:25%;
+ margin-top:5%;
+   
+}
+
+.foot1 {
+  padding-top: 33%;
+}
+
+.flag{
+  padding-bottom:3px;
+  font-size:15px;
+  padding-left:150px;
+}
+.intervene table{
+  border-radius: 4px;
+  padding: 10px;
+  width:100%;
+  font-size:13px;
+  margin-left:2%; 
+  margin-top:1%;
+  
+}
+ .intervene td,th{
+  padding: 8px;
+  font-weight:bold;
+  font-size:13px;
+    
+}
+
+.recs1{
+  padding-top:25%;
+}
+
+.flag1 table{
+  border-radius: 4px;
+  padding: 10px;
+  width:180%;
+  font-size:12px;
+  font-weight: bold;
+  margin-left:0%; 
+  margin-top:1%;
+      
+ }
+ .flag1 td,th{
+  padding: 5px;
+  font-size:13px;
+  font-weight:bold;
+  }
+
+  .flag1 table button{
+  font-size: 10px;
+  padding: 8px 20px;
+  border-radius: 3px;
+   
+ }
+
+ .recs{
+   font-size:12px;
+   margin-top:5%;
+ }
+
+ .photo{
+  padding-left:100px;
+  
+}
+
+.photo1{
+  padding-left:30px;
+  
+}
+
+.fill1{
+  padding-left:5px;
+  margin-top: -45%;
+  margin-right:10%;
+      
+ }
+   
+ .fill1 button{
+   padding:10px;
+   font-weight:bold;
+   border-radius:8px;
+   margin-top:8%;
+   margin-left:80px;
+
+ }
+
+ .fill1 input{
+   width:200%;
+ }
+
+ .fill1 label{
+   padding-left:5px;
+ }
+
+ .claim{
+  float: right;
+  padding-right:5%;
+  margin-top:20%;
+        
+}
+
+.counter1{
+ float: left;
+ margin-left: 5px;
+ border-radius: 3px;
+ padding: 4px;
+ font-size:13px;
+}
+.counter2{
+ margin-top:4%;
+ float: right;
+ border-radius: 3px;
+ padding: 3px;
+ font-size:13px;
+ margin-left:20px;
+ margin-bottom:10px;
+
+}
+
+.fill2 {
+  padding-right:91px;
+  padding-top:140px;
+       
+}
+
+.fill3{
+  font-size:13px;
+  padding-right:85px;
+  margin-top:-250%;
+    
+ }
+
+ .fill3 table{
+   margin-right: 72px;
+   border-radius: 4px;
+   padding: 18px;
+   width:100%;
+   font-size:13px;
+   margin-left:20%; 
+             
+}
+
+.fill3 td,th{
+ padding: 5px;
+ font-size:13px;
+ 
+}
+.list{
+  width:60%;
+  padding-left:13%;
+  padding-top:500px;
+  
+}
+
+.list p{
+  padding-left:80px;
+  
+}
+
+.set{
+  padding-left:100px;
+  padding-top:600px;
+  
+  
+}
+
+}
 
 
 
