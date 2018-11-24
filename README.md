@@ -35,7 +35,7 @@ https://github.com/nearjay06/iReporter
 
 gh-pages
 
-https://github.com/nearjay06/iReporter/tree/gh-pages/iReporter/UI/templates
+https://nearjay06.github.io/iReporter/iReporter/UI/templates/index.html
 
 AUTHOR
 
