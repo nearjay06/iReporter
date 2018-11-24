@@ -584,11 +584,11 @@ h1{
 
 .page{
   padding-top:5%;
-  margin-left:15%;
+  margin-left:22%;
 }
 
 .foot{
-  padding-top:58%;
+  padding-top:45%;
   font-size:13px;
 }
 
@@ -624,7 +624,7 @@ h1{
 }
 
 .endfooter{
-  padding-top:41%;
+  padding-top:37%;
   font-size:13px;
   padding-left:10px;
 }
@@ -696,7 +696,7 @@ border-radius: 2px;
 }
 
 .foot1 {
-  padding-top: 33%;
+  padding-top: 26%;
   font-size:13px;
 }
 
@@ -765,12 +765,14 @@ border-radius: 2px;
 }
 
 .count{
-  padding-top:60%;
+  padding-top:50%;
+  margin-right:40px;
+  
 }
 
 .counter1{
   float:left;
-  padding-left:15px;
+  padding-left:10px;
   font-size:13px;
 }
 
@@ -781,7 +783,7 @@ border-radius: 2px;
 }
 
 .fill1{
-  margin-top:-79%;
+  margin-top:-67%;
   
 }
 
@@ -797,13 +799,14 @@ border-radius: 2px;
 }
 
 .fill2{
-  padding-right:160px;
+  padding-right:600px;
   margin-top: -170%;
+  
 }
 
 .fill3{
-  margin-top:-670px;
-  padding-right:150px;
+  margin-top:-635px;
+  padding-right:220px;
   
 }
 
@@ -824,7 +827,7 @@ font-size:13px;
 }
 
 .set{
-  padding-top:450px;
+  padding-top:465px;
   padding-left:80px;
   
 }
@@ -834,7 +837,7 @@ font-size:13px;
   
 }
 .list p{
-  padding-left:70px;
+  padding-left:82px;
   width:95%;
   
 }
@@ -846,7 +849,7 @@ font-size:13px;
 .tablefooter{
   font-size:13px;
   float:right;
-  padding-right:15px;
+  padding-right:16px;
 }
 
 }
