@@ -8,7 +8,7 @@ To start the project, you'll need:
 - A project management platform such as Pivotal tracker
 - A github repository
 - A text editor such as VS Code
-- Web browser such as Google Chrome, Opera Mini, Firefox Mozilla
+- Web browser such as Google Chrome
 
 FEATURES
 
@@ -35,6 +35,7 @@ https://github.com/nearjay06/iReporter
 
 gh-pages
 
+https://github.com/nearjay06/iReporter/tree/gh-pages/iReporter/UI/templates
 
 AUTHOR
 
