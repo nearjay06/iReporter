@@ -1,8 +1,8 @@
-iREPORTER PROJECT: Overview
+# iREPORTER PROJECT: Overview
 
 iReporter is an app which enables the general public to report incidences of corruption. Citizens can also report on issues that require immediate government intervention.
 
-GETTING STARTED:
+## GETTING STARTED:
 
 To start the project, you'll need:
 - A project management platform such as Pivotal tracker
@@ -10,7 +10,7 @@ To start the project, you'll need:
 - A text editor such as VS Code
 - Web browser such as Google Chrome, Opera Mini, Firefox Mozilla
 
-FEATURES
+## FEATURES
 
 - A user can create an account on iReporter and sign in.
 - A user can raise a red flag linked to corruption.
@@ -20,26 +20,25 @@ FEATURES
 - A user can receive notifications about the status of their red flag records.
 - A user can get sms texts about the status of their red flag records.
 
-LANGUAGES
+## LANGUAGES
 - HTML
 - CSS
 - JAVASCRIPT
 
-PIVOTAl TRACKER
+### PIVOTAL TRACKER
 
 https://www.pivotaltracker.com/n/projects/2227289
 
-GITHUB REPO
+### GITHUB REPO
 
 https://github.com/nearjay06/iReporter
 
-gh-pages
 
 
-AUTHOR
+### AUTHOR
 
 Okecho Joan
 
-ACKNOWLEDEGEMENTS
+### ACKNOWLEDEGEMENTS
 
 Andela - Uganda

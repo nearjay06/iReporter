@@ -5,7 +5,7 @@ body {
 }
 
 #signup{
- background-image: url(../static/images/bribe.jpg);
+ 
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -468,12 +468,12 @@ h1{
   }
  
   .fill3 table{
-    margin-right: 10px;
+    margin-right:330px;
     color: black;
     border: 2px solid rgb(0, 41, 128);
     border-radius: 4px;
     padding: 20px;
-    width:65%;
+    width:61%;
     font-family: Cambria;
     font-size:15px;
     background-color:rgb(245, 222, 179, 0.4); 
@@ -570,6 +570,82 @@ margin-top:125px;
   margin-top: 5px;
 }
 
+.sub {
+  margin-left:400px;
+  font-family:cambria;
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.sub input[type=text], select, textarea {
+  width: 51%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.sub label {
+  padding: 3px 3px 3px 0;
+  display: inline-block;
+}
+
+.sub input[type=submit] {
+  background-color: rgb(128, 139, 233);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:30%;
+  margin-left:70px;
+  margin-top:12px;
+  font-family:cambria;
+  font-weight:bold;
+}
+
+.sub input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.sub input[type=description] {
+  width: 40%;
+  height:50%;
+  padding: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+}
+
+.sub select{
+  width: 53%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size:12px;
+  margin-top:12px;
+
+}
+
+.vid input[type=file]{
+  width: 51%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background: #bfcfe6;
+  padding:10px;
+  color: black;
+  height:1.25em;
+}
+
+.report{
+  padding-top:20px;
+  font-size:13px;
+  float:right;
+  padding-right:30px;
+}
+
 
 
 @media screen and (max-width:800px){
@@ -633,30 +709,32 @@ h1{
   margin-right: 10px;
   border-radius: 3px;
   padding: 16px;
-  width:60%;
+  width:90%;
   font-size:13px;
   font-weight:bold;
-  margin-left:5%; 
+  margin-left:4%; 
   margin-top:2%;
 }
 
 .admintable td,th{
 padding: 4px;
-font-size:13px;
+font-size:12px;
 font-weight:bold;
+
 
 }
 .admintable table button{
-font-size: 13px;
-padding: 5px 12px;
+font-size: 12px;
+padding: 4px 10px;
 border-radius: 2px;
 
 }
 
 .bottom {
-  margin-top:18%;
-  margin-left:2%;
+  margin-top:10%;
+ padding-right:5%;
   font-size:13px;
+  float:right;
 }
 
 .menu{
@@ -707,51 +785,68 @@ border-radius: 2px;
 }
 .intervene table{
   border-radius: 4px;
-  padding: 10px;
+  padding: 8px;
   width:160%;
-  font-size:13px;
+  font-size:12px;
   margin-left:2%; 
-  margin-top:1%;
+  margin-top:4%;
   
 }
  .intervene td,th{
   padding: 8px;
   font-weight:bold;
-  font-size:13px;
+  font-size:12px;
     
 }
+.intervene img{
+  height:60px;
+  width:60px;
+}
+
+.intervene table button{
+  font-size: 12px;
+  padding: 6px 18px;
+    
+  }
 
 .recs1{
-  padding-top:25%;
+  margin-top:12%;
   font-size:13px;
+  float:right;
+  margin-right:5%;
 }
 
 .flag1 table{
   border-radius: 4px;
   padding: 10px;
-  width:180%;
+  width:140%;
   font-size:12px;
   font-weight: bold;
   margin-left:0%; 
-  margin-top:1%;
+  margin-top:4%;
       
  }
  .flag1 td,th{
-  padding: 5px;
-  font-size:13px;
-  font-weight:bold;
+  padding: 3px;
+  font-size:12px;
+  
   }
 
   .flag1 table button{
   font-size: 10px;
-  padding: 8px 20px;
+  padding: 6px 16px;
   border-radius: 3px;
    
  }
 
+ .flag1 img{
+   height:60px;
+   width:60px;
+ }
+
  .recs{
    font-size:12px;
-   margin-top:5%;
+   margin-top:27%;
  }
 
  .photo{
@@ -799,24 +894,25 @@ border-radius: 2px;
 }
 
 .fill2{
-  padding-right:600px;
-  margin-top: -170%;
+  
+  margin-top: -110%;
+  margin-right:-30%;
   
 }
 
 .fill3{
-  margin-top:-635px;
+  margin-top:-520px;
   padding-right:220px;
   
 }
 
 .fill3 table{
-  margin-right: 72px;
+  margin-right: 100px;
   border-radius: 4px;
   padding: 18px;
-  width:100%;
+  width:130%;
   font-size:13px;
-  margin-left:38%; 
+  margin-left:20%; 
             
 }
 
@@ -827,7 +923,7 @@ font-size:13px;
 }
 
 .set{
-  padding-top:465px;
+  padding-top:350px;
   padding-left:80px;
   
 }
@@ -852,6 +948,40 @@ font-size:13px;
   padding-right:16px;
 }
 
+.sub {
+  margin-left:70px;
+  font-family:cambria;
+  
+}
+
+.sub input[type=text], select, textarea {
+  
+  width: 80%;
+
+  }
+ 
+  .sub input[type=description] {
+    width: 59%;
+  
+  }
+  
+  .sub select{
+    width: 85%;
+    
+    }
+  
+  .vid input[type=file]{
+    width: 80%;
+        
+  }
+
+  .sub input[type=submit] {
+    
+    margin-left:100px;
+    
+  }
+  
+    
 }
 
 
