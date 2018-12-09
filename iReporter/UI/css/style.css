@@ -5,7 +5,7 @@ body {
 }
 
 #signup{
- 
+ background-image: url(../static/images/bribe.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -102,7 +102,7 @@ h1{
    font-size:20px;
    font-weight:bold;
    text-align:center;
-   padding-top:20px;
+   padding-top:30px;
    padding-right:90px;
    
   }
@@ -135,7 +135,7 @@ h1{
    font-size:20px;
    font-weight:bold;
    margin-left:40%;
-   padding-top:10px;
+   padding-top:30px;
    
       
   }
@@ -156,7 +156,7 @@ h1{
  .foot{
   font-family:cambria;
   padding-left:16px;
-  padding-top:230px;
+  padding-top:200px;
   font-size:15px;
   margin-top:2%;
  }
@@ -166,6 +166,7 @@ h1{
    background-repeat: no-repeat;
    background-size: cover;
   }
+
  h2{
   font-family:cambria;
   font-size:20px;
@@ -655,17 +656,19 @@ h1{
 }
 
 .pen1{
-  padding-left:6%;
+  padding-left:5%;
 }
 
 .page{
-  padding-top:5%;
-  margin-left:22%;
+  padding-top:10%;
+  margin-left:15%;
 }
 
 .foot{
-  padding-top:45%;
-  font-size:13px;
+  padding-top:54%;
+  font-size:12px;
+  float:right;
+  padding-right:6%;
 }
 
 .flex-container{
@@ -700,7 +703,7 @@ h1{
 }
 
 .endfooter{
-  padding-top:37%;
+  padding-top:40%;
   font-size:13px;
   padding-left:10px;
 }
@@ -774,8 +777,10 @@ border-radius: 2px;
 }
 
 .foot1 {
-  padding-top: 26%;
+  padding-top: 36%;
   font-size:13px;
+  float:right;
+  padding-right:5%;
 }
 
 .flag{
@@ -846,7 +851,7 @@ border-radius: 2px;
 
  .recs{
    font-size:12px;
-   margin-top:27%;
+   margin-top:106px;
  }
 
  .photo{
@@ -862,6 +867,7 @@ border-radius: 2px;
 .count{
   padding-top:50%;
   margin-right:40px;
+  margin-top:20%;
   
 }
 
@@ -869,16 +875,21 @@ border-radius: 2px;
   float:left;
   padding-left:10px;
   font-size:13px;
+  margin-left:3%;
+  
 }
 
 .counter2{
   float:right;
   font-size:13px;
   padding-left:5px;
+  margin-right:-5%;
+  margin-top:-8%;
+  
 }
 
 .fill1{
-  margin-top:-67%;
+  margin-top:-85%;
   
 }
 
@@ -895,24 +906,24 @@ border-radius: 2px;
 
 .fill2{
   
-  margin-top: -110%;
-  margin-right:-30%;
+  margin-top: -145%;
+  margin-right:-50%;
   
 }
 
 .fill3{
-  margin-top:-520px;
-  padding-right:220px;
+  margin-top:-540px;
+  padding-right:100px;
   
 }
 
 .fill3 table{
-  margin-right: 100px;
+  margin-right: 85px;
   border-radius: 4px;
-  padding: 18px;
-  width:130%;
+  padding: 10px;
+  width:123%;
   font-size:13px;
-  margin-left:20%; 
+  margin-left:3%; 
             
 }
 
@@ -949,8 +960,9 @@ font-size:13px;
 }
 
 .sub {
-  margin-left:70px;
+  margin-left:40px;
   font-family:cambria;
+  
   
 }
 
@@ -961,7 +973,7 @@ font-size:13px;
   }
  
   .sub input[type=description] {
-    width: 59%;
+    width: 54%;
   
   }
   
