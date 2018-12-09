@@ -20,7 +20,7 @@ To start the project, you'll need:
 - A user can receive notifications about the status of their red flag records.
 - A user can get sms texts about the status of their red flag records.
 
-## LANGUAGES
+### LANGUAGES
 - HTML
 - CSS
 - JAVASCRIPT
@@ -33,6 +33,9 @@ https://www.pivotaltracker.com/n/projects/2227289
 
 https://github.com/nearjay06/iReporter
 
+### gh-pages
+
+https://nearjay06.github.io/iReporter/iReporter/UI/templates/index.html
 
 
 ### AUTHOR
