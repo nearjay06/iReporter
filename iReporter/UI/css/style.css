@@ -74,8 +74,8 @@ h1{
 
  .feet{
   font-family:cambria;
-  padding-left:16px;
-  padding-top:30px;
+  margin-left:-50%;
+  padding-top:10px;
   font-size:15px;
   
  }
@@ -320,8 +320,17 @@ h1{
   border: 2px solid royalblue;
   
  }
+ .flag1 table a {
+   font-family:cambria;
+   text-decoration: none;
+   list-style: none;
+   color:black;
+ }
+
 .recs{
   margin-top:2%;
+  font-size:13px;
+  font-family:cambria;
 }
 
 .intervene table{
@@ -351,8 +360,16 @@ h1{
   
 }
 
+.intervene table a{
+  font-family:cambria;
+  text-decoration: none;
+  color:black;
+}
+
 .recs1{
   margin-top:15%;
+  font-family:cambria;
+  font-size:13px;
 }
 
 .photo{
@@ -537,6 +554,13 @@ border: 2px solid rgb(78, 94, 143);
 
 }
 
+.admintable table a{
+  font-family:cambria;
+  text-decoration: none;
+  color:black;
+}
+
+
 .bottom{
 margin-top:125px;
 }
@@ -647,6 +671,31 @@ margin-top:125px;
   padding-right:30px;
 }
 
+.login p{
+  font-family:cambria;
+  font-weight:bold;
+  margin-left:1px;
+  margin-top:-1%;
+  
+}
+
+.login a{
+   text-decoration: none;
+   padding:3px;
+   border:none;
+   border-radius:none;
+   background-color: none;
+   font-family:cambria;
+   font-weight:bold;
+   text-decoration:none;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:16px;
+   color:red;
+  
+}
+
+
 
 
 @media screen and (max-width:800px){
@@ -661,13 +710,13 @@ h1{
 
 .page{
   padding-top:10%;
-  margin-left:15%;
+  margin-left:20%;
 }
 
 .foot{
-  padding-top:54%;
-  font-size:12px;
-  float:right;
+  margin-top:3%;
+  font-size:13px;
+  float: left;;
   padding-right:6%;
 }
 
@@ -703,7 +752,7 @@ h1{
 }
 
 .endfooter{
-  padding-top:40%;
+  padding-top:37%;
   font-size:13px;
   padding-left:10px;
 }
@@ -777,7 +826,7 @@ border-radius: 2px;
 }
 
 .foot1 {
-  padding-top: 36%;
+  padding-top: 26%;
   font-size:13px;
   float:right;
   padding-right:5%;
@@ -851,7 +900,7 @@ border-radius: 2px;
 
  .recs{
    font-size:12px;
-   margin-top:106px;
+   margin-top:136px;
  }
 
  .photo{
@@ -951,6 +1000,8 @@ font-size:13px;
 
 .feet{
   font-size:13px;
+  padding-left:165px;
+  padding-top:18px;
 }
 
 .tablefooter{
@@ -962,8 +1013,7 @@ font-size:13px;
 .sub {
   margin-left:40px;
   font-family:cambria;
-  
-  
+    
 }
 
 .sub input[type=text], select, textarea {
