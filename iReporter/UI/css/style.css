@@ -67,12 +67,12 @@ h1{
    
 }
 
- .flex-container a:hover {
+.flex-container a:hover {
  opacity: 1;
  background-color:palegreen;
 } 
 
- .feet{
+.feet{
   font-family:cambria;
   margin-left:-50%;
   padding-top:10px;
@@ -80,7 +80,7 @@ h1{
   
  }
 
- input{
+input{
   margin-top:8px;
   padding:10px;
   margin-bottom:5px;
@@ -90,14 +90,14 @@ h1{
   
  }
 
- #home{
+#home{
   background-image: url(../static/images/bribe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  }
 
    
-  .pen1{
+.pen1{
    font-family:cambria;
    font-size:20px;
    font-weight:bold;
@@ -107,7 +107,7 @@ h1{
    
   }
 
-  .page a{
+.page a{
    border:1px solid rgb(214, 201, 173);
    border-radius:30px;
    transition: 0.3s;
@@ -124,13 +124,13 @@ h1{
     
     
   }
-  .page a:hover {
+.page a:hover {
    opacity: 1;
    background-color:rgb(223, 194, 99);
    
   }
   
-  .page{
+.page{
    font-family:cambria;
    font-size:20px;
    font-weight:bold;
@@ -140,44 +140,45 @@ h1{
       
   }
 
-  .page p{
+.page p{
    padding-top:5px;
    padding-bottom:8px;
   }
 
-  .move3{
+.move3{
    padding-left:50px;
  }
  
- .move5{
+.move5{
    padding-left:20px;
  }
 
- .foot{
+.foot{
   font-family:cambria;
   padding-left:16px;
-  padding-top:200px;
+  padding-top:15%;
   font-size:15px;
   margin-top:2%;
  }
 
- #signin{
+#signin{
    background-image: url(../static/images/bribe.jpg);
    background-repeat: no-repeat;
    background-size: cover;
   }
 
- h2{
+h2{
   font-family:cambria;
   font-size:20px;
   margin-top:5px;
   text-align:center;
  }
+
  .well1 input{
   border:1px solid purple;
    }
 
-  .well1{
+.well1{
    display:flex;
    flex-direction: column;
    font-family:cambria;
@@ -189,7 +190,7 @@ h1{
    padding-top:10px;
   }
 
-  .well1 select{
+.well1 select{
     padding:10px;
     border:1px solid purple;
     margin-top:8px;
@@ -199,7 +200,7 @@ h1{
     
   }
 
- .well1 button{
+.well1 button{
  border-radius:10px;
  border:1px solid rgb(91, 102, 96);
  padding-top:5px;
@@ -213,13 +214,14 @@ h1{
  margin-left:100px;
 
  }
- .well1 button:hover {
+ 
+.well1 button:hover {
   opacity: 1;
   background-color:plum;
  }
 
  
- .well1 a{
+.well1 a{
  text-decoration: none;
  font-family:cambria;
  padding:3px;
@@ -227,7 +229,7 @@ h1{
  font-weight:bold;
  } 
 
- .well1 p{
+.well1 p{
   padding-left:232px;
   padding-top:3px;
   margin-top:-3%;
@@ -285,7 +287,7 @@ h1{
 #table-wrapper {
   overflow-x: auto;
 }
- .flag1 table{
+.flag1 table{
   margin-right: 20px;
   color: black;
   border: 2px solid rgb(0, 41, 128);
@@ -301,7 +303,8 @@ h1{
   border-right:1px solid black;
       
  }
- .flag1 td,th{
+ 
+.flag1 td,th{
   padding: 8px;
   font-family: Cambria;
   font-size:15px;
@@ -312,7 +315,7 @@ h1{
   
   }
 
-  .flag1 table button{
+.flag1 table button{
   font-size: 12px;
   padding: 10px 24px;
   font-family: cambria;
@@ -320,7 +323,8 @@ h1{
   border: 2px solid royalblue;
   
  }
- .flag1 table a {
+ 
+.flag1 table a {
    font-family:cambria;
    text-decoration: none;
    list-style: none;
@@ -432,14 +436,14 @@ h1{
 }
 
 
- .fill{
+.fill{
   font-family: cambria;
   font-weight: bold;
   font-size: 16px;
      
  }
 
- .fill1{
+.fill1{
    font-family:cambria;
    font-weight:bold;
    font-size:16px;
@@ -453,7 +457,7 @@ h1{
    
   }
     
-  .fill1 button{
+.fill1 button{
     padding:10px;
     border:1px solid rgb(119, 128, 0);
     font-family:cambria;
@@ -464,7 +468,7 @@ h1{
  
  
   }
-  .fill2{
+.fill2{
     font-family: cambria;
     font-weight: bold;
     font-size:16px;
@@ -474,7 +478,7 @@ h1{
        
   }
  
-  .fill3{
+.fill3{
    font-family:cambria;
    font-weight:bold;
    font-size:16px;
@@ -485,7 +489,7 @@ h1{
  
   }
  
-  .fill3 table{
+.fill3 table{
     margin-right:330px;
     color: black;
     border: 2px solid rgb(0, 41, 128);
@@ -502,7 +506,7 @@ h1{
         
  }
  
- .fill3 td,th{
+.fill3 td,th{
   padding: 8px;
   font-family: Cambria;
   font-size:15px;
@@ -511,7 +515,7 @@ h1{
   border-right: 1px solid black;
   text-align:left;
  }
- .tablefooter{
+.tablefooter{
    float:left;
    padding-top:-50px;
  }
@@ -746,43 +750,49 @@ margin-top:125px;
   font-size:13px;
 }
 
+.status {
+  margin-left:30%;
+  font-family:cambria;
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.status input[type=text],input[type=value],Input[type=number],textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
 
 
+.status label {
+  padding: 3px 3px 3px 0;
+  display: inline-block;
+}
 
+.status button {
+  background-color: rgb(102, 131, 224);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:10%;
+  margin-left:42%;
+  margin-top:12px;
+  font-family:cambria;
+  font-weight:bold;
+}
 
+.status button:hover {
+  background-color: #53e940;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.statusfooter {
+  font-family:cambria;
+  font-size:13px;
+  padding-top:4%;
+}
 
 
 @media screen and (max-width:800px){
@@ -801,10 +811,10 @@ h1{
 }
 
 .foot{
-  margin-top:3%;
+  padding-top:39%;
   font-size:13px;
-  float: left;;
-  padding-right:6%;
+  float: left;
+  margin-right:2%;
 }
 
 .flex-container{
@@ -1003,7 +1013,7 @@ border-radius: 2px;
 .count{
   padding-top:50%;
   margin-right:40px;
-  margin-top:20%;
+  margin-top:5%;
   
 }
 
@@ -1012,6 +1022,7 @@ border-radius: 2px;
   padding-left:10px;
   font-size:13px;
   margin-left:3%;
+  margin-top:-3%;
   
 }
 
@@ -1020,17 +1031,22 @@ border-radius: 2px;
   font-size:13px;
   padding-left:5px;
   margin-right:-5%;
-  margin-top:-8%;
+  margin-top:-3%;
   
 }
 
 .fill1{
-  margin-top:-85%;
+  margin-top:-65%;
   
 }
 
 .fill1 input {
   width:200%;
+}
+
+.fill1 input[type=number] {
+  width: 200%;
+    
 }
 
 .fill1 button{
@@ -1043,7 +1059,7 @@ border-radius: 2px;
 .fill2{
   
   margin-top: -145%;
-  margin-right:-50%;
+  margin-right:-80%;
   
 }
 
@@ -1156,6 +1172,32 @@ font-size:13px;
     font-size:10px;
   }
 
+  .status {
+    margin-left:20%;
+    
+  }
+  
+  .status input[type=text],input[type=value],Input[type=number],textarea {
+    width: 70%;
+        
+  }
+  
+    
+  .status button {
+    
+    width:20%;
+    margin-left:55%;
+    
+  }
+  
+  .status button:hover {
+    background-color: #53e940;
+  }
+  
+  .statusfooter {
+    padding-top:13%;
+  }
+  
 
     
 }
