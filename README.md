@@ -1,4 +1,4 @@
-# iREPORTER PROJECT: Overview
+## iREPORTER PROJECT: Overview
 
 iReporter is an app which enables the general public to report incidences of corruption. Citizens can also report on issues that require immediate government intervention.
 
@@ -10,7 +10,7 @@ To start the project, you'll need:
 - A text editor such as VS Code
 - Web browser such as Google Chrome
 
-## FEATURES
+### FEATURES
 
 - A user can create an account on iReporter and sign in.
 - A user can raise a red flag linked to corruption.
