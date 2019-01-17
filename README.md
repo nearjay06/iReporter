@@ -25,11 +25,7 @@ To start the project, you'll need:
 - CSS
 - JAVASCRIPT
 
-<<<<<<< HEAD
-### PIVOTAl TRACKER
-=======
 ### PIVOTAL TRACKER
->>>>>>> ft-records-162111318
 
 https://www.pivotaltracker.com/n/projects/2227289
 
@@ -41,10 +37,6 @@ https://github.com/nearjay06/iReporter
 
 https://nearjay06.github.io/iReporter/iReporter/UI/templates/index.html
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ft-records-162111318
 ### AUTHOR
 
 Okecho Joan
